@@ -1,0 +1,30 @@
+Package: SeaTemperature
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    c(person("Pere", "Carranza", "first.last@example.com", role = "aut"),
+    person("Ares", "Inglada",  email = "a.i@example.com", role = "aut"),
+    person("Liliu", "Martínez", email = "l.m@example.com", role = c("aut", "cre")))
+Description: Provides IDESCAT sea temperature data of Costa Brava, 2000-2017,
+    and tools to analyze temperature changes and anomalies. 
+    Includes functions to calculate month-to-month changes, 
+    compute anomalies relative to 1974-1999 baseline, create visualizations,
+    and perform trend analysis. Data and baseline are included in the package.
+License:  MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Imports:
+    dplyr,
+    ggplot2,
+    tidyr,
+    tibble,
+    stats
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
