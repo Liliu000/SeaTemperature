@@ -1,21 +1,21 @@
-# SeaTemp
+# SeaTemperature
 
-Analysis of Mediterranean sea temperature data from Estartit observation point (2000-2017).
+Analysis of Mediterranean sea temperature data 2000 to 2017.
 
-**All data is included in the package** - no external files needed!
+**All data is included in the package** 
 
   ## Installation
   ```r
 # From GitHub
-devtools::install_github("yourusername/SeaTemp")
+devtools::install_github("Liliu000/SeaTemperature")
 
 # Or from local file
-install.packages("SeaTemp_0.1.0.tar.gz", repos = NULL, type = "source")
+install.packages("SeaTemperature_0.1.0.tar.gz", repos = NULL, type = "source")
 ```
 
 ## Quick Start
 ```r
-library(SeaTemp)
+library(SeaTemperature)
 
 # Data is already loaded - just use it!
 data(sea.deep)
@@ -62,7 +62,7 @@ plot_anom_projection()
 - `plot_anom_projection()` - Visualize projections
 
 ## Citation
-Carranza, P., Inglada, A., & Martínez, L. (2025). SeaTemp: Analysis of
+Carranza, P., Inglada, A., & Martínez, L. (2025). SeaTemperature: Analysis of
 Mediterranean Sea Temperature Data. R package version 0.1.0.
 
 ## Data Source
