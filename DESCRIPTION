@@ -10,7 +10,7 @@ Description: Provides IDESCAT sea temperature data of Costa Brava, 2000-2017,
     Includes functions to calculate month-to-month changes, 
     compute anomalies relative to 1974-1999 baseline, create visualizations,
     and perform trend analysis. Data and baseline are included in the package.
-License:  MIT + file LICENSE
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
@@ -28,3 +28,5 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+URL: https://github.com/Liliu000/SeaTemperature
+BugReports: https://github.com/Liliu000/SeaTemperature/issues
